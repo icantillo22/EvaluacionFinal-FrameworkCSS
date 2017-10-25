@@ -1,0 +1,60 @@
+body{
+  background-image: url("../img/fondo.jpg") !important;
+}
+
+@media (max-width: 480px) {
+  body{
+    background-image: url("../img/fondo-mobile.jpg") !important;
+  }
+}
+
+
+#logo{
+  margin-left: 20px;
+  width: 160px !important;
+}
+
+.no_margin_bottom{
+  margin-bottom: 0 !important;
+}
+
+#slogan{
+  font-style: italic;
+}
+
+.galeria{
+  margin-bottom: 10px;
+}
+
+.imagen-art{
+  margin-top: 10px !important;
+}
+
+.art , .form{
+  padding: 10px 15px;
+}
+
+img[alt="Isaac Cantillo"]{
+  width: 50% !important;
+
+}
+
+.autor{
+  text-align: center !important;
+}
+
+h4{
+  border-bottom: 1px solid grey;
+}
+.icono{
+  width: 90%;
+  margin: 15px 0;
+}
+
+.boton{
+  text-align: center;
+}
+
+.formulario{
+  text-align: center;
+}
