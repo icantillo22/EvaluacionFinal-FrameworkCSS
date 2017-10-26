@@ -1,0 +1,43 @@
+.principal{
+  background-color: #ffd54f !important;
+}
+
+.titulo{
+  background-color: #FD7516 !important;
+
+}
+
+body{
+  background-image: url(../img/fondo.jpg);
+
+}
+
+.row{
+  padding: 10px 0;
+}
+
+#logo{
+  width: 100%;
+}
+
+#home{
+    border-right: 1px solid white;
+}
+
+#slogan{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.izq{
+  background-color: #ffd54f;
+}
+
+.favoritos .row .column img{
+  transition-property: box-shadow;
+  transition-duration: 1s;
+}
+
+.favoritos .row .column img:hover{
+  box-shadow: 2px 2px #ff4949;
+}
