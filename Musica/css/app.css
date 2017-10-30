@@ -1,0 +1,58 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#titulo{
+  background-color: rgb(143, 23, 23);
+}
+
+.nav{
+  background-color: rgb(254, 162, 66);
+}
+
+img[alt="Logo"]{
+  width: 100%;
+}
+
+img[alt="Farruko"]{
+  width: 100%;
+}
+
+img[alt="Chyno"]{
+  width: 100%;
+}
+
+.contenido{
+  background-color: white;
+}
+
+.nav{
+  margin-bottom: 15px;
+}
+
+.articulos{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.contenedor-articulos, .buscador{
+  padding: 10px;
+}
+
+.navbar_principal{
+  padding: 0 !important;
+}
+
+.nav-item{
+  margin: 0 17%;
+}
+
+@media (max-width: 1200px) {
+  .nav-item{
+    margin: 0 12%;
+  }
+}
